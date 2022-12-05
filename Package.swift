@@ -21,7 +21,7 @@ let package = Package(
             name: "SwiftCSVTests",
             dependencies: ["SwiftCSV"],
             resources: [
-                .process("Resources")
+                .copy("Resources")
             ]
         )
     ]
